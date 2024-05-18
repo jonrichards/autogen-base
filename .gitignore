@@ -1,2 +1,4 @@
+.cache
 .env
 OAI_CONFIG_LIST
+__pycache__/
