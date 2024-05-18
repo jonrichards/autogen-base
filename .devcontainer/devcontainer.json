@@ -1,0 +1,59 @@
+{
+	"name": "Python 3",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": {
+				"editor.codeActionsOnSave": {
+					"source.organizeImports": "always"
+				},
+				"editor.formatOnSave": true,
+				"pylint.args": [
+					"--disable=missing-class-docstring",
+					"--disable=missing-function-docstring",
+					"--disable=missing-module-docstring"
+				],
+				"python.defaultInterpreterPath": "/usr/local/bin/python",
+				"python.formatting.blackPath": "/usr/local/py-utils/bin/black",
+				"isort.check": true,
+				"isort.args": [
+					"--profile",
+					"black"
+				],
+				"isort.importStrategy": "fromEnvironment",
+				"isort.interpreter": [
+					"/usr/local/bin/python"
+				],
+				"isort.path": [
+					"/usr/local/bin/isort"
+				],
+				"[python]": {
+					"editor.formatOnSave": true
+				}
+			},
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"DavidAnson.vscode-markdownlint",
+				"ms-azuretools.vscode-docker",
+				"ms-python.black-formatter",
+				"ms-python.debugpy",
+				"ms-python.isort",
+				"ms-python.python",
+				"ms-python.pylint",
+				"streetsidesoftware.code-spell-checker"
+			]
+		}
+	},
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "pip3 install --user -r requirements.txt",
+	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "vscode"
+}
