@@ -1,5 +1,7 @@
 # AutoGen-base
 
+![CodeQL](https://github.com/jonrichards/autogen-base/actions/workflows/codeql.yml/badge.svg) ![Dependency Review](https://github.com/jonrichards/autogen-base/actions/workflows/dependency-review.yml/badge.svg)
+
 Base project for [AutoGen](https://github.com/microsoft/autogen) development.
 
 ## Introduction
