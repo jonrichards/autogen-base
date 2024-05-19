@@ -17,7 +17,8 @@
 				"pylint.args": [
 					"--disable=missing-class-docstring",
 					"--disable=missing-function-docstring",
-					"--disable=missing-module-docstring"
+					"--disable=missing-module-docstring",
+					"import sys; sys.path.append({workspaceFolder})"
 				],
 				"python.defaultInterpreterPath": "/usr/local/bin/python",
 				"python.formatting.blackPath": "/usr/local/py-utils/bin/black",
