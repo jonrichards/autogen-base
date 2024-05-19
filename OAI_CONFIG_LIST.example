@@ -2,21 +2,49 @@
     {
         "model": "gpt-3.5-turbo",
         "api_key": "",
-        "tags": ["gpt-3.5", "turbo"]
+        "tags": [
+            "gpt-3.5",
+            "turbo"
+        ]
     },
     {
         "model": "gpt-4-turbo",
         "api_key": "",
-        "tags": ["gpt-4", "turbo"]
+        "tags": [
+            "gpt-4",
+            "turbo"
+        ]
     },
     {
         "model": "gpt-4o",
         "api_key": "",
-        "tags": ["gpt-4o", "multimodel"]
+        "tags": [
+            "gpt-4o",
+            "multimodel"
+        ]
+    },
+    {
+        "model": "dall-e-2",
+        "api_key": "",
+        "tags": [
+            "dalle2",
+            "image"
+        ]
+    },
+    {
+        "model": "dall-e-3",
+        "api_key": "",
+        "tags": [
+            "dalle3",
+            "image"
+        ]
     },
     {
         "model": "text-embedding-3-large",
         "api_key": "",
-        "tags": ["embeddings", "large"]
+        "tags": [
+            "embeddings",
+            "large"
+        ]
     }
 ]
