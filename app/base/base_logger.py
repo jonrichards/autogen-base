@@ -30,6 +30,7 @@ class SensitiveDataFilter(logging.Filter):
         if isinstance(record.msg, list):
             record.msg = self.mask_list(record.msg)
         elif isinstance(record.args, dict):
+            record.args = copy.deepcopy(record.args)
             for key, value in record.args.items():
                 if isinstance(value, list):
                     record.args[key] = self.mask_list(value)
