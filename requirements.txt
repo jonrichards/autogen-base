@@ -5,6 +5,6 @@ pipenv~=2023.12.1
 pyautogen~=0.2.28
 pycodestyle~=2.11.1
 pydocstyle~=6.3.0
-pylint~=3.2.2
+pylint~=3.2.3
 virtualenv~=20.26.2
 yapf~=0.40.2
