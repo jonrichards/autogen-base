@@ -10,6 +10,7 @@
         "devcontainer",
         "devcontainers",
         "dotenv",
+        "ipython",
         "isort",
         "levelname",
         "multimodel",
