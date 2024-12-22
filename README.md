@@ -11,7 +11,7 @@ This project uses [devcontainers](https://code.visualstudio.com/docs/devcontaine
 ## Features
 
 - [devcontainer based development environment](https://code.visualstudio.com/docs/devcontainers/containers) for [VSCode](https://code.visualstudio.com/).
-- [Python 3.12](https://www.python.org/) [docker](https://www.docker.com/) image base.
+- [Python 3.x](https://www.python.org/) [docker](https://www.docker.com/) image base.
 - [OpenAI](https://www.openai.com/) API integration.
 - [black](https://pypi.org/project/black/) formatting on save.
 - [isort](https://pypi.org/project/isort/) import sorting on save.
