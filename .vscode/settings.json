@@ -1,14 +1,26 @@
 {
     "cSpell.words": [
+        "agentchat",
         "autogen",
         "azuretools",
+        "dall",
+        "dalle",
         "DavidAnson",
         "debugpy",
         "devcontainer",
         "devcontainers",
         "dotenv",
+        "ipython",
         "isort",
         "levelname",
-        "pylint"
+        "multimodel",
+        "pipenv",
+        "pyautogen",
+        "pycache",
+        "pycodestyle",
+        "pydocstyle",
+        "pylint",
+        "virtualenv",
+        "yapf"
     ]
 }
