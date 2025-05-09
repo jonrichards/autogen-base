@@ -8,5 +8,5 @@ pyautogen~=0.8.7
 pycodestyle~=2.13.0
 pydocstyle~=6.3.0
 pylint~=3.3.7
-virtualenv~=20.31.1
+virtualenv~=20.31.2
 yapf~=0.43.0
