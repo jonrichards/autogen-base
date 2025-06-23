@@ -1,11 +1,11 @@
 black~=25.1.0
-flake8~=7.2.0
+flake8~=7.3.0
 isort~=6.0.1
 ipython~=8.18.1
 pillow~=11.2.1
-pipenv~=2025.0.2
-pyautogen~=0.8.7
-pycodestyle~=2.13.0
+pipenv~=2025.0.3
+pyautogen~=0.9
+pycodestyle~=2.14.0
 pydocstyle~=6.3.0
 pylint~=3.3.7
 virtualenv~=20.31.2
