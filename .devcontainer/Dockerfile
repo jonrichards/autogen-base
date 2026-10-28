@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/python:3.13
+FROM mcr.microsoft.com/vscode/devcontainers/python:3.15
 
 # Install Docker CLI
 RUN sudo apt update && \
